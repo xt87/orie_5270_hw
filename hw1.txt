@@ -1,0 +1,5 @@
+in today’s class, we first learned AWS, the EC2 service specifically. It is a   very useful tool since it is a cloud service that allows different people to work concurrently; 
+We also introduced linux command, such as pwd, cd, etc. This helps us to executedifferent functions on linux; 
+We also covered the topics of vim commands, which allows us to edit text over   linux; 
+We also learned git, a widely used version control system, which allows us to   track the changes of the project and also allows people to work in parallel; 
+Finally, we talked briefly about shell. Through shell, we can execute script    written in different programming languages, which is really helpful and can save usa lot of time.
