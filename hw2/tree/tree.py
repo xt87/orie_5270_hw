@@ -42,3 +42,8 @@ class Node(object):
         self.value = value
         self.left = left
         self.right = right
+        
+if __name__ == '__main__':
+    a = Node(1,Node(2,Node(3,None,None),Node(4,None,None)),Node(5,Node(6,None,None),Node(7,None,None)))
+    b = Tree(a)
+  
