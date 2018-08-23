@@ -35,3 +35,10 @@ class Tree(object):
         arr = [['|'for i in range(n)]for j in range(depth)]
         arr = self.insert(self.root,arr,depth-1,2**(depth-1)-1)
         return arr  
+
+class Node(object):
+
+    def __init__(self, value, left, right):
+        self.value = value
+        self.left = left
+        self.right = right
