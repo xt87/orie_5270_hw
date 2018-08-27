@@ -14,7 +14,7 @@ def trans(lines):
     return trans
     
 def find_shortest_path(name_txt_file,source,destination):
-    files = open('name_txt_file','r')
+    files = open(name_txt_file,'r')
     lines = files.readlines()
     tran = trans(lines)
     edges = defaultdict(list)
