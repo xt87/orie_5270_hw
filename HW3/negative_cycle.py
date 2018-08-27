@@ -56,3 +56,5 @@ def find_negative_cycles(name_txt_file):
                 negative_cycle.append(backward)
                 backward = p[backward]
             return negative_cycle
+        else:
+            return None
